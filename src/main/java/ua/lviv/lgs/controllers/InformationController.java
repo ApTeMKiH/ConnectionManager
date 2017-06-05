@@ -9,7 +9,6 @@ import org.springframework.validation.Validator;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import ua.lviv.lgs.entity.Information;
 import ua.lviv.lgs.entity.User;
 import ua.lviv.lgs.services.InformationService;

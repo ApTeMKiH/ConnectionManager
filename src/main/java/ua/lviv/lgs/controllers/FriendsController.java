@@ -8,7 +8,6 @@ import ua.lviv.lgs.entity.*;
 import ua.lviv.lgs.services.*;
 import ua.lviv.lgs.utill.WhoAreUser;
 
-import javax.jws.soap.SOAPBinding;
 import java.security.Principal;
 import java.util.*;
 
