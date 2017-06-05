@@ -1,0 +1,42 @@
+.messageContainer{
+    position: relative;
+    height: 78%;
+    overflow: auto;
+    width: 100%;
+    border-radius: 0;
+}
+
+.messageSendContainer{
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    margin-top: -23px;
+    height: 84px;
+}
+
+.sendMessage{
+    height: 74px;
+}
+
+.formWriteMessage{
+    position: absolute;
+    bottom: 0px;
+    margin-right: 5px;
+}
+
+.well pre{
+    white-space: pre-wrap;
+}
+
+.deleteMessage{
+    float: right;
+}
+.messageUpdate{
+    margin-bottom: -24px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px 5px 0 0;
+}
+.messageUpdate a{
+    margin: auto;
+}
+

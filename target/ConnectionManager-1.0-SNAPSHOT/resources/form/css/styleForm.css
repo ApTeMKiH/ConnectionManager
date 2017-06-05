@@ -1,0 +1,60 @@
+body {
+    background-image: url('/resources/images/23.jpg');
+    background-size: cover;
+    font-family: 'Titillium Web', sans-serif;
+}
+.form {
+    background: rgba(19, 35, 47, 0.9);
+    padding: 40px;
+    max-width: 400px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.form2 {
+    background: rgba(19, 35, 47, 0.9);
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+p{
+    color: #66afe9;
+}
+label{
+    color: #66afe9;
+}
+.form-control{
+    background: rgba(160, 179, 176, 0.25);
+    color: #66afe9;
+    outline: none;
+}
+#interest{
+    resize: none;
+}
+#socialStatus{
+    resize: none;
+}
+option{
+    background: #13232f;
+    outline: none;
+}
+button{
+    margin-top: 15px;
+}
+
+.info{
+    text-align: center;
+    color: #66afe9;
+
+}
+#errorMessage{
+    display: none;
+    text-align: center;
+    border: none;
+    background-color: darkred;
+    color: white;
+
+
+}
