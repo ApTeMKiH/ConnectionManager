@@ -1,17 +1,339 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4c37b02-111e-4d79-9593-2d15e5f8a22b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/UserServiceImpl.class" />
+    <list default="true" id="f4c37b02-111e-4d79-9593-2d15e5f8a22b" name="Default" comment="Change persistence property for c3p0">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/beans.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/AudioController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/BaseController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/DialogsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/FriendFriendsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/FriendsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/GlobalExceptionHandlerController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/InformationController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/MessageController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/PhotoController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/PostsCommentsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/PostsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/controllers/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/dto/MessageDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/dto/UserDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/Audio.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/Dialogs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/Follower.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/Following.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/Friends.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/Information.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/Message.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/Photo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/PhotoComments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/Posts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/PostsComments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/entity/UserConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/exceptions/ValidationException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/mail/MailConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/AudioRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/DialogsRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/FollowerRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/FollowingRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/FriendsRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/InformationRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/MessageRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/PhotoCommentsRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/PhotoRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/PostsCommentsRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/PostsRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/UserConfigRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/repositories/UserRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/AudioService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/DialogService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/FollowerService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/FollowingService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/FriendsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/InformationService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/MessageService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/PhotoService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/PostsCommentsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/PostsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/UserConfigService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/AudioServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/DialogServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/FollowerServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/FollowingServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/FriendsServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/InformationServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/MessageServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/PhotoServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/PostsCommentsServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/PostsServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/UserConfigServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/UserServiceImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/services/implementation/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/utill/ValidationMessages.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/utill/WhoAreUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/validation/InformationValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/validation/Validator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/validation/implementation/AudioValidation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/validation/implementation/PhotoValidation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/lgs/validation/implementation/UserValidation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/HikariCP-2.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/commons-digester-2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/commons-httpclient-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.5.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-4.3.10.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-4.3.10.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.6.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.5.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-base-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.5.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jandex-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/javax.mail-1.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jsp-api-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.36.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/persistence-api-1.0.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/restfb-1.22.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.11.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-1.9.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/tiles-api-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/tiles-autotag-core-runtime-1.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/tiles-core-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/tiles-jsp-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/tiles-request-api-1.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/tiles-request-jsp-1.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/tiles-request-servlet-1.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/tiles-servlet-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/tiles-template-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/message.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/audio/user1/Fleetwood_Mac_-_The_Chain.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/audio/user1/Imagine Dragons - Whatever It Takes.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/audio/user4/[FDM] Porter Robinson feat. Amy Millan - Divinity (filous Remix) [320 kbps] [Rel.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/css/FriendsStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/css/PhotoStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/css/PostStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/css/dialogsStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/css/friendPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/css/messageStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/css/myStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/css/profileAvatar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/form/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/form/css/styleForm.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/form/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/form/js/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/form/scss/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/cm-logo2.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/defaultImg/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/defaultImg/unnamed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/pic02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/pic03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/pic04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/pic05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/pic06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/pic07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/images/pic08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/jquery-1.11.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/FriendsScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/PostsScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/audioScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/friendFriendsScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/friendProfileAction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/manageScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/messageScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/myScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/onlyBadge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/photoFriend.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/photoScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/profileAvatar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/js/signInScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user1/1396509321_kinopoisk.ru-emily-bett-rickards-2090885.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user1/599928-1680x1050.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user1/968full-emily-bett-rickards.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user1/celwalls.com_6101.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user1/poleznoe.ru_14955.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user2/3FLWmqa-Qio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user2/DSC_0004.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user2/DSC_0047.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user2/ss-160812-twip-02_3380f5e9d30b766138155f8c3f11f9a8.nbcnews-fp-1200-800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user3/Кока-кола.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user4/pictures-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user4/ss-160812-twip-02_3380f5e9d30b766138155f8c3f11f9a8.nbcnews-fp-1200-800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user5/1225895117_x_57ff459d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user6/Hillary_Clinton_official_Secretary_of_State_portrait_crop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user6/hillary-clinton-thumbs-up.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/resources/photo/user6/Без названия.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/audio.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/audioFriend.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/dialogs.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/friendProfile.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/friends.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/friendsFriend.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/managePage.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/messaging.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/photo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/photoFriend.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/profile.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/radio.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/registration.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/setInformation.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/settings.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/views/signIn.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/AudioController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/BaseController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/DialogsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/FriendFriendsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/FriendsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/GlobalExceptionHandlerController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/InformationController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/MessageController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/PhotoController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/PostsCommentsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/PostsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/controllers/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/dto/MessageDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/dto/UserDTO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/Audio.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/Dialogs.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/Follower.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/Following.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/Friends.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/Information.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/Message.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/Photo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/PhotoComments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/Posts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/PostsComments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/entity/UserConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/exceptions/ValidationException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/mail/MailConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/AudioRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/DialogsRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/FollowerRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/FollowingRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/FriendsRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/InformationRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/MessageRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/PhotoCommentsRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/PhotoRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/PostsCommentsRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/PostsRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/UserConfigRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/repositories/UserRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/AudioService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/DialogService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/FollowerService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/FollowingService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/FriendsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/InformationService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/MessageService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/PhotoService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/PostsCommentsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/PostsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/UserConfigService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/AudioServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/DialogServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/FollowerServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/FollowingServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/FriendsServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/InformationServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/MessageServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/PhotoServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/PostsCommentsServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/PostsServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/UserConfigServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/UserServiceImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/services/implementation/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/utill/ValidationMessages.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/utill/WhoAreUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/validation/InformationValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/validation/Validator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/validation/implementation/AudioValidation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/validation/implementation/PhotoValidation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/lgs/validation/implementation/UserValidation.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ConnectionManager_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ConnectionManager_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConnectionManager.iml" afterPath="$PROJECT_DIR$/ConnectionManager.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/lgs/services/implementation/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/lgs/services/implementation/UserServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/ConnectionManager-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_c3p0_4_3_10_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_1_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_10_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_c3p0_4_2_1_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_10_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_1_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,8 +371,8 @@
       <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+            <state relative-caret-position="255">
+              <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -75,7 +397,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
-              <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1079,7 +1401,7 @@
       <workItem from="1496645423625" duration="11922000" />
       <workItem from="1496673030031" duration="1273000" />
       <workItem from="1496699311985" duration="2729000" />
-      <workItem from="1496733223871" duration="1029000" />
+      <workItem from="1496733223871" duration="3416000" />
     </task>
     <task id="LOCAL-00001" summary="Change for heroku">
       <created>1496700429848</created>
@@ -1116,11 +1438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496733379855</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change persistence property for c3p0">
+      <created>1496734284286</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1496734284286</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="436517000" />
+    <option name="totallyTimeSpent" value="438904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1133,13 +1462,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35188216" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1153,8 +1482,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35188216" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35188216" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1220,7 +1549,8 @@
     <MESSAGE value="Change for heroku2" />
     <MESSAGE value="Change for heroku3" />
     <MESSAGE value="Change persistence property" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change persistence property" />
+    <MESSAGE value="Change persistence property for c3p0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change persistence property for c3p0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1481,7 +1811,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1491,7 +1821,7 @@
         <state relative-caret-position="306">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1501,7 +1831,7 @@
         <state relative-caret-position="1224">
           <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1527,7 +1857,7 @@
         <state relative-caret-position="272">
           <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1537,7 +1867,7 @@
         <state relative-caret-position="442">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1547,7 +1877,7 @@
         <state relative-caret-position="272">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1569,7 +1899,7 @@
         <state relative-caret-position="118">
           <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1579,7 +1909,7 @@
         <state relative-caret-position="370">
           <caret line="186" column="16" lean-forward="false" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1597,14 +1927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/lgs/services/implementation/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1613,10 +1935,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="255">
+          <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
           <folding />
         </state>
       </provider>
