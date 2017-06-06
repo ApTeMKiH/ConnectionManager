@@ -61,7 +61,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
             message.setFrom(MailConfig.USER_NAME);
             message.setSubject("Activate your account");
             message.setText("For activate your account follow the link below\n" +
-                    "http://localhost:8080/activate/"+userConfig.getActivationCode());
+                    "http://connectionmanager.herokuapp.com/activate/"+userConfig.getActivationCode());
 
             Transport.send(message);
             System.out.println("Done");
