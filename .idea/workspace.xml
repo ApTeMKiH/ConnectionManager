@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4c37b02-111e-4d79-9593-2d15e5f8a22b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+    <list default="true" id="f4c37b02-111e-4d79-9593-2d15e5f8a22b" name="Default" comment="Have a small change in persistence">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1061,7 +1060,7 @@
       <workItem from="1496699311985" duration="2729000" />
       <workItem from="1496733223871" duration="3890000" />
       <workItem from="1496757733591" duration="3182000" />
-      <workItem from="1497292950608" duration="179000" />
+      <workItem from="1497292950608" duration="230000" />
     </task>
     <task id="LOCAL-00001" summary="Change for heroku">
       <created>1496700429848</created>
@@ -1133,11 +1132,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496760661492</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Have a small change in persistence">
+      <created>1497293148901</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1497293148901</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="442739000" />
+    <option name="totallyTimeSpent" value="442790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
