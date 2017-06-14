@@ -2,6 +2,7 @@ package ua.lviv.lgs.services.implementation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.context.ContextLoader;
 import ua.lviv.lgs.entity.Audio;
 import ua.lviv.lgs.entity.User;
 import ua.lviv.lgs.repositories.AudioRepo;
@@ -42,7 +43,9 @@ public class AudioServiceImpl implements AudioService {
 
     @Override
     public void delete(int id) {
-        File file = new File("D:/Курси/Project/ConnectionManager/src/main/webapp"+audioRepo.findOne(id).getPath());
+        String path = ContextLoader.getCurrentWebApplicationContext().getServletContext().getRealPath("");
+        path = path.replace('\\','/').substring(0,path.length()-38)+"src/main/webapp";
+        File file = new File(path+audioRepo.findOne(id).getPath());
         file.delete();
         audioRepo.delete(id);
     }

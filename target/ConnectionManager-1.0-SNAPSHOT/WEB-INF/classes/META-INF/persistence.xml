@@ -3,16 +3,16 @@
     <persistence-unit name="Main">
         <properties>
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
-            <property name="hibernate.connection.url" value="jdbc:mysql://us-cdbr-iron-east-03.cleardb.net:3306/heroku_9b378713f756144?reconnect=true"/>
-            <property name="hibernate.connection.username" value="b70a1a6b1d4588"/>
-            <property name="hibernate.connection.password" value="c20816e5"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://sql8.freemysqlhosting.net:3306/sql8179890"/>
+            <property name="hibernate.connection.username" value="sql8179890"/>
+            <property name="hibernate.connection.password" value="u9siICwABj"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
-            <property name="maxActive" value="10"/>
+            <!--<property name="maxActive" value="10"/>
             <property name="maxIdle" value="5"/>
             <property name="minIdle" value="2"/>
             <property name="initialSize" value="5"/>
-            <property name="removeAbandoned" value="true"/>
+            <property name="removeAbandoned" value="true"/>-->
             <!-- c3p0 connection pool settings -->
             <!--<property name="hibernate.connection.provider_class" value="org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider" />
             <property name="hibernate.c3p0.min_size" value="1" />

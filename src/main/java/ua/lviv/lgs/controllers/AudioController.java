@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.context.ContextLoader;
 import org.springframework.web.multipart.MultipartFile;
 import ua.lviv.lgs.entity.Audio;
 import ua.lviv.lgs.entity.User;
@@ -62,8 +63,10 @@ public class AudioController {
         User user = userService.findByEmail(principal.getName());
             if (multipartFile!=null){
                 try {
-                    String path = "D:/Курси/Project/ConnectionManager/src/main/webapp/resources/audio/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
+                    //String path = "D:/Курси/Project/ConnectionManager/src/main/webapp/resources/audio/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
                     String path2 = "/resources/audio/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
+                    String path = ContextLoader.getCurrentWebApplicationContext().getServletContext().getRealPath("");
+                    path = path.replace('\\','/').substring(0,path.length()-38)+"src/main/webapp/resources/audio/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
                     File file = new File(path);
                     if (!(file.isDirectory())){
                         file.mkdirs();

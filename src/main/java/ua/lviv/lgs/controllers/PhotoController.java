@@ -1,9 +1,12 @@
 package ua.lviv.lgs.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.HttpRequestHandler;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.context.ContextLoader;
 import org.springframework.web.multipart.MultipartFile;
 import ua.lviv.lgs.entity.Photo;
 import ua.lviv.lgs.entity.User;
@@ -54,12 +57,14 @@ public class PhotoController {
     }
 
     @RequestMapping(value = "/photo/add", method = RequestMethod.POST)
-    public String addPhoto(Principal principal, @RequestParam("image")MultipartFile multipartFile){
+    public String addPhoto(Principal principal, @RequestParam("image")MultipartFile multipartFile, HttpRequestHandler request){
         User user = userService.findByEmail(principal.getName());
             if (multipartFile!=null){
                 try {
-                    String path = "D:/Курси/Project/ConnectionManager/src/main/webapp/resources/photo/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
+                    //String path = "D:/Курси/Project/ConnectionManager/src/main/webapp/resources/photo/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
                     String path2 = "/resources/photo/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
+                    String path = ContextLoader.getCurrentWebApplicationContext().getServletContext().getRealPath("");
+                    path = path.replace('\\','/').substring(0,path.length()-38)+"src/main/webapp/resources/photo/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
                     File file = new File(path);
                     if (!(file.isDirectory())){
                         file.mkdirs();
@@ -83,8 +88,10 @@ public class PhotoController {
     public String addAvatar(@RequestParam("image")MultipartFile multipartFile, Principal principal){
         User user = userService.findByEmail(principal.getName());
         try {
-            String path = "D:/Курси/Project/ConnectionManager/src/main/webapp/resources/photo/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
+            //String path = "D:/Курси/Project/ConnectionManager/src/main/webapp/resources/photo/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
             String path2 = "/resources/photo/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
+            String path = ContextLoader.getCurrentWebApplicationContext().getServletContext().getRealPath("");
+            path = path.replace('\\','/').substring(0,path.length()-38)+"src/main/webapp/resources/photo/user"+user.getId()+"/"+multipartFile.getOriginalFilename();
             File file = new File(path);
             if (!(file.isDirectory())){
                 file.mkdirs();
